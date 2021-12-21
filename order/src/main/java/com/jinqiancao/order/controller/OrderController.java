@@ -19,6 +19,6 @@ public class OrderController {
     @RequestMapping("/add")
     private String add(){
         String msg = restTemplate.getForObject("http://localhost:8012/stock/reduce", String.class);
-        return "hello world"+msg;
+        return "hello world1"+msg;
     }
 }
