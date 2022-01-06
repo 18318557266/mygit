@@ -1,6 +1,5 @@
-package com.jinqiancao.order;
+package order;
 
-import com.alibaba.csp.sentinel.annotation.aspectj.SentinelResourceAspect;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.client.RestTemplateBuilder;
@@ -14,20 +13,15 @@ import org.springframework.web.client.RestTemplate;
  */
 @SpringBootApplication
 @EnableDiscoveryClient
-public class OrderApplication {
+public class OrderApplication2 {
 
     public static void main(String[] args) {
-        SpringApplication.run(OrderApplication.class,args);
+        SpringApplication.run(OrderApplication2.class,args);
     }
 
     @Bean
     public RestTemplate getRestTemplate(RestTemplateBuilder builder){
         RestTemplate template = builder.build();
         return template;
-    }
-
-    @Bean
-    public SentinelResourceAspect  sentinelResourceAspect(){
-        return new SentinelResourceAspect();
     }
 }
