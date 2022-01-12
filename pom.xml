@@ -8,6 +8,7 @@
     <module>stock</module>
     <module>config</module>
     <module>order2</module>
+    <module>gateway</module>
   </modules>
 
 <!--  <parent>-->
