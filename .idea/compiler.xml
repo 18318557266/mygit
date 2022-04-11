@@ -6,8 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="order2" />
         <module name="stock" />
         <module name="config" />
+        <module name="gateway" />
         <module name="order" />
       </profile>
     </annotationProcessing>

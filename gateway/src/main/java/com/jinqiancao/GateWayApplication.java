@@ -5,12 +5,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
  * @author jinqiancao
- * @date 2021/12/20 11:16
+ * @date 2022/1/7 14:02
  */
 @SpringBootApplication
-public class ConfigApplication {
+public class GateWayApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ConfigApplication.class,args);
+        SpringApplication.run(GateWayApplication.class,args);
     }
 }
